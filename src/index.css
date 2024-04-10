@@ -1,0 +1,405 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+#menu {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  height: 26px;
+  align-items: center;
+  list-style: none;
+  padding-right: 37px;
+  text-decoration: none;
+}
+#logo {
+  height: 58px;
+  width: 180px;
+}
+ul {
+  margin: 0;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  margin-right: 66px;
+  text-decoration: none;
+}
+#resumeButton {
+  color: white;
+  text-decoration: none;
+  padding: 11px;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-left: 106px;
+  padding-right: 85px;
+}
+#firstPageText {
+  color: white;
+  width: 50%;
+  margin-top: 241px;
+  padding-left: 106px;
+}
+#name {
+  color: #fff;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 141.176% */
+  letter-spacing: 7.5px;
+}
+#myname {
+  color: #f2f2f2;
+  font-family: Plus Jakarta Sans;
+  font-size: 61.646px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.green-text {
+  color: #10ca52;
+}
+#firstPageSmallText {
+  color: var(--gray-6, #f2f2f2);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+  width: 538px;
+}
+#bigImage {
+  width: 30%;
+  /* height: 874px; */
+  position: absolute;
+  padding-left: 200px;
+  top: 160px;
+}
+
+#smallLogos svg {
+  margin: 16px;
+  padding-top: 77px;
+  cursor: pointer;
+}
+#secondPageText {
+  color: white;
+  width: 667px;
+  padding-left: 132px;
+  padding-top: 130px;
+}
+#secondPageHeader {
+  color: var(--gray-6, #f2f2f2);
+  font-family: Plus Jakarta Sans;
+  font-size: 61.646px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+#secondPageSmallText {
+  color: var(--gray-6, #f2f2f2);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+#SKILLS {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.5px; /* 136.111% */
+}
+#GreenText {
+  color: #10ca52;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24.5px; /* 175% */
+}
+#tinyTextOne {
+  color: var(--gray-6, #f2f2f2);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.5px;
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#tinyTextTwo {
+  color: var(--gray-6, #f2f2f2);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#bigImage2 {
+  width: 545px;
+  height: 496px;
+  flex-shrink: 0;
+  padding-top: 106px;
+  padding-left: 75px;
+}
+#textOne {
+  padding-bottom: 20px;
+}
+#topThird {
+  color: #10ca52;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 7.5px;
+}
+#topThirdBig {
+  color: var(--gray-6, #f2f2f2);
+  font-family: Plus Jakarta Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#Apple {
+  display: flex;
+  width: 361px;
+  height: 402px;
+  padding: 0px 0px 12.428px 0px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  flex-shrink: 0;
+}
+#Achievement {
+  display: flex;
+  width: 580px;
+  height: 360px;
+  padding: 0px 0px 12.428px 0px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+#tesla {
+  display: flex;
+  width: 361px;
+  height: 402px;
+  /* padding: 84px 0px 51px 0px; */
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 0px 0px 12.428px 0px;
+}
+
+#playstation {
+  width: 361px;
+  height: 402px;
+  flex-shrink: 0;
+  /* padding-top: 32px; */
+  padding: 0px 0px 12.428px 0px;
+}
+#thirdPage {
+  margin-top: 254px;
+}
+#thirdPageTitle {
+  padding-left: 130px;
+}
+#topFourth {
+  color: #10ca52;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 7.5px;
+}
+#topFourthBig {
+  color: var(--gray-6, #f2f2f2);
+  font-family: Plus Jakarta Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#fourthPage {
+  padding-top: 189px;
+  /* padding-left: 130px; */
+  /* padding-right: 130px; */
+}
+#developmentTools {
+  width: 1195px;
+  height: 402px;
+}
+#developmentToolsMain {
+  /* display: inline-flex; */
+  /* align-items: flex-start; */
+  /* gap: 128px; */
+  padding: 104px 0px 12.428px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#fifthTitle {
+  color: var(--gray-6, #f2f2f2);
+  font-family: Plus Jakarta Sans;
+  font-size: 61.646px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 35px;
+}
+#email {
+  color: var(--gray-6, #f2f2f2);
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 28px;
+}
+#phoneNumber {
+  color: var(--gray-6, #f2f2f2);
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 53px;
+}
+#socialsIMG {
+  gap: 34px;
+  padding-bottom: 63px;
+}
+.socialsIMGPLS {
+  cursor: pointer;
+}
+#resumeButton2 {
+  color: var(--gray-6, #f2f2f2);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+  text-decoration: none;
+}
+#sumbitButton1 {
+  color: var(--gray-6, #f2f2f2);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+#nameHere {
+  color: white;
+  background-color: rgb(37, 37, 38);
+  width: 809.385px;
+  height: 58.191px;
+  border-radius: 8px;
+  padding-left: 20px;
+}
+
+#nameInput {
+  padding-bottom: 19px;
+}
+
+#emailHere {
+  color: white;
+  background-color: rgb(37, 37, 38);
+  width: 809.385px;
+  height: 58.191px;
+  border-radius: 8px;
+  padding-left: 20px;
+}
+#emailInput {
+  padding-bottom: 29px;
+}
+#messageHere {
+  background-color: rgb(37, 37, 38);
+  width: 809.385px;
+  height: 227.191px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+  line-height: 28px; /* Adjust this value to vertically align the text */
+}
+
+#messageHere::placeholder {
+  color: white; /* Adjust this value to move the placeholder text slightly to the right */
+  line-height: 28px;
+  text-align: left; /* Set text alignment of placeholder to left */
+  font-family: Inter;
+  font-size: 16.972px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+#inputTaker {
+  padding-left: 40px;
+}
+input::placeholder {
+  color: #fff;
+}
+#nameHere,
+#emailHere,
+#messageHere {
+  border: none; /* Remove the border */
+  color: #fff;
+  font-family: Inter;
+  font-size: 16.972px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.topMe {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+#finalProjectReal {
+  width: 50%;
+  height: auto;
+}
