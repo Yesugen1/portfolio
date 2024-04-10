@@ -17,6 +17,16 @@
       href="https://fonts.googleapis.com/css2?family=Inter&family=Plus+Jakarta+Sans&display=swap"
       rel="stylesheet"
     />
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "LJPLITdEz0zNuVZ5K",
+      });
+   })();
+</script>
     <style>
       .centered {
         display: flex;
@@ -447,7 +457,7 @@ Experienced Web Developer with a solid grasp of both front-end and back-end deve
 
       <div id="inputTaker">
         <div id="nameInput">
-          <input type="text" id="nameHere" name="name" placeholder="Name" />
+          <input type="text" id="nameHere" name="nameHere" placeholder="Name" />
         </div>
         <div id="emailInput">
           <input type="email" name="email" id="emailHere" placeholder="Email" />
@@ -466,16 +476,25 @@ Experienced Web Developer with a solid grasp of both front-end and back-end deve
         padding-top: 55px;
         /* padding-right: 391px;"
         >
-          <a
+          <!-- <a
             style="
               border: 2px solid #10ca52;
               border-radius: 10px;
               padding: 11px;
             "
             id="sumbitButton1"
-            href="#"
+            
+            onclick="sendMail()"
             >Submit</a
-          >
+          >  -->
+           <button  style="
+          border: 2px solid #10ca52;
+          border-radius: 10px;
+          padding: 11px;
+        "
+        id="sumbitButton1"
+        
+        onclick="sendMail()">Submit</button>
         </div>
       </div>
     </div>
