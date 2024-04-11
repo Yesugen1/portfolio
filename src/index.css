@@ -321,6 +321,7 @@ li {
   /* align-items: center; */
   background-color: transparent; /* Set background color to transparent */
   width: 100px;
+  cursor: pointer;
 }
 #nameHere {
   color: white;
