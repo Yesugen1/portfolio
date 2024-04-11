@@ -319,6 +319,8 @@ li {
   display: flex;
   justify-content: center;
   /* align-items: center; */
+  background-color: transparent; /* Set background color to transparent */
+  width: 100px;
 }
 #nameHere {
   color: white;
